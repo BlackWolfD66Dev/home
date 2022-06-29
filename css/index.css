@@ -1,0 +1,409 @@
+@font-face {
+	font-family: 'ceribri';
+	src:url('../font/Cerebri Sans Regular.ttf');
+}
+
+@font-face {
+	font-family: 'codepro';
+	src:url('../font/Code Pro Bold.otf');
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #F2F4F9;
+}
+.header{
+	display: flex;
+}
+.background_image1 img{
+  width: 85%;
+  height: 1000px;
+
+}
+
+.background_text{
+	padding-left: 150px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.text1{
+	font-family: ceribri;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.text2{
+	font-family: codepro;
+	font-size: 70px;
+}
+.text3{
+	font-family: ceribri;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: grey;
+}
+.button{
+	display: flex;
+	margin-top: 50px;
+}
+.button1{
+	width: 200px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	background: #F05D7B;
+	border:none;
+	color: white;
+	box-shadow: 0 8px 6px -6px #F05D7B;
+	transition: 1s;
+}
+.button1:hover{
+	  transform: scale(1.1);
+
+}
+.button2{
+	margin-left: 30px;
+	width: 200px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	color: #F05D7B;
+	background: #F2F4F9;
+	border: 1px solid #F05D7B;
+	transition: 1s;
+
+}
+.button2:hover{
+	  transform: scale(1.1);
+}
+
+.skills{
+	background: white;
+	display: flex;
+	width: 1600px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.skills label{
+	font-size: 35px;
+	font-family: ceribri;
+}
+.skills_holder{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.skills_holder1{
+	display: flex;
+	align-items: center;
+	width: 600px;
+	padding-left: 70px;
+	height: 200px;
+}
+.skills_holder1 img{
+	width: 150px;
+	height: 150px;
+	transition: 1s;
+}
+.skills_holder1 img:hover{
+	transform: scale(1.1);
+}
+.skills_holder1_label{
+	padding-left: 20px;
+	width: 600px;
+
+}
+.label2{
+	color: grey;
+	font-size: 10px;
+}
+
+.experience{
+	display: flex;
+	width: 1600px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.experience label{
+	font-size: 35px;
+	font-family: ceribri;
+}
+.experience_holder{
+	display: flex;
+	padding-top: 50px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F05D7B;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.education{
+	background: white;
+	display: flex;
+	width: 1600px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.education label{
+	font-size: 35px;
+	font-family: ceribri;
+}
+
+.footer{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.navigation{
+	display: flex;
+	justify-content: center;
+	flex-grow: 3;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.navigation ul{
+
+}
+.navigation ul li{
+	display: inline;
+	padding-left: 100px;
+}
+.navigation ul li a{
+	font-family: 'ceribri';
+	text-decoration: none;
+	color: grey;
+	font-size: 30px;
+	transition: 1s;
+}
+.navigation ul li a:hover{
+	padding:5px 20px 5px 20px;
+	border-radius: 50px;
+	background: #F05D7B;
+	border:none;
+	color: white;
+	box-shadow: 0 8px 6px -6px #F05D7B;
+}
+.nav1{
+	background: red;
+	width: 300px;
+	border-radius: 50px;
+	height: 100px;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    box-shadow:0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.nav1 img{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	transition: 1s;
+
+}
+.nav1 img:hover{
+	transform: scale(1.1);
+}
+
+
+.wrap-table{
+  width: 1370px;
+  padding-top: 80px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #36304a;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+
+.table1-head th{
+  font-family: ceribri;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F2F4F9;
+}
+
+tbody tr {
+  font-family: ceribri;
+  font-size: 25px;
+  color: #808080;
+  line-height: 2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #F2F4F9;
+  cursor: pointer;
+
+}
+
+.column1 {
+  width: 400px;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 500px;
+}
+
+.column3 {
+  width: 100px;
+}
+
+tbody tr img{
+	width: 70px;
+}
+.column2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.institution{
+	padding-left: 10px;
+	flex-grow: 2;
+}
+
+.experience_holder{
+	position: relative;
+}
+.background{
+  position: absolute;
+
+}
+.back1{
+	  position: absolute;
+	 top: -50%; left: 50%;
+  	 margin-left: -200px; margin-top: -100px;
+}
+
+.back2{
+	  position: absolute;
+	 top: 80%; left: -150%;
+  	 margin-left: -200px; margin-top: -100px;
+}
+.back10{
+	  position: absolute;
+	 top: 250%; left: -450%;
+  	 margin-left: -200px; margin-top: -100px;
+}
+
+.back20{
+	  position: absolute;
+	 top: -100%; left: 50%;
+  	 margin-left: -200px; margin-top: -100px;
+}
+.back00{
+	  position: absolute;
+	 top: -100%; left: 50%;
+  	 margin-left: -200px; margin-top: -100px;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+.background_image1 img{
+  width:200%;
+  height: 1000px;
+
+}
+.footer{
+	height: 500px;
+	width: 1600px;
+	display: flex;
+	flex-direction: column;
+	j
+
+}
